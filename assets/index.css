@@ -5,7 +5,7 @@ body, html {
   background-size: cover;
   background-repeat: no-repeat;
   backface-visibility: hidden;
-  animation: slideBG 16s linear infinite 0s;
+  animation: slideBG 32s linear infinite 0s;
   background-image: url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1504&q=80");
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -68,7 +68,7 @@ header {
 } */
 @keyframes spin {
     from {transform:rotateY(0deg);}
-    to {transform:rotateY(360deg);}
+    to {transform:rotateY(1080deg);}
 }
 
 .pic    {
@@ -76,7 +76,7 @@ header {
     width: 100px;
     height: 100px;
     animation-name: spin;
-    animation-duration: 8s;
+    animation-duration: 32s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     /* -moz-animation-name: spin;
@@ -95,6 +95,15 @@ font-style: #777777;
 
 }
 
+#port {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(187, 255, 0);
+    font-weight: bolder;
+}
+
 .p1 {
     padding-left: 80px;
     padding-right: 80px;
@@ -103,13 +112,14 @@ font-style: #777777;
     /* background-color: rgba(82, 255, 160, 0.596); */
 }
 h2  {
+    margin: 30px;
     text-align: center;
     color: hsla(170, 100%, 50%);
     padding-left: 80px;
     padding-right: 80px;
-    font-size: 225%;
+    font-size: 300%;
 }
-h3  {
+h3 {
     text-align: center;
     text-decoration: underline;
     color: hsla(170, 100%, 50%);
@@ -129,10 +139,10 @@ h4  {
     text-decoration: bold;
 }
 .topnav {
-    display: inline;
+    display: block;
     float: right;
-    size: 500%;
-
+    margin-right: 100px;
+    font-size: 30px;
 }
  
 #left{
