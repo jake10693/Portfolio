@@ -4,7 +4,7 @@
 
 ## Description
 
-This is an outdated version of my Web Developer Portfolio. The most current and up to date version of my porfolio can be found on my github in the repo titled "React_Portfolio".
+This is an outdated version of my Web Developer Portfolio. The most current and up to date version of my porfolio can be found on my github in the repo titled "Portfolio_AboutMe".
 
 ## Table of Contents 
 
